@@ -1,4 +1,3 @@
-REM del /S /Q history\*.*
 for /R "history" %%F in (*) do (
     if not "%%~nxF"=="symbols.raw" (
         if not "%%~nxF"=="symbols.sel" (
