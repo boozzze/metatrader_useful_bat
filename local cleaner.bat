@@ -12,3 +12,4 @@ del /S /Q deleted\*.*
 del /S /Q experts\logs\*.*
 del /S /Q tester\history\*.*
 del /S /Q tester\logs\*.*
+del /S /Q MQL4\Logs\*.*
