@@ -12,7 +12,7 @@ echo. > %output_file%
 
 REM If the user wants to add MemReduct cleanup at the beginning, then do it
 if /i "%add_memreduct%"=="yes" (
-    echo TIMEOUT 15 >> %output_file%
+    echo TIMEOUT %timeout_seconds% >> %output_file%
     echo start /D "C:\Program Files\Mem Reduct\" /MIN memreduct.exe -clean >> %output_file%
     echo TIMEOUT 5 >> %output_file%
     echo taskkill /f /im memreduct.exe >> %output_file%
