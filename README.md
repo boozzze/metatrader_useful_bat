@@ -25,6 +25,6 @@ Clean all MetaTraders folder, Clean Local MetaTrader  folder, Create file for au
 
 **Настройка и установка MemReduct**
 1. Скачиваем последний релиз https://github.com/henrypp/memreduct/releases/tag/v.3.4 или по прямой ссылке https://github.com/henrypp/memreduct/releases/download/v.3.4/memreduct-3.4-setup.exe
-2. Устанавливаем сохраняя все по умолчанию, директорию не меняем.
+2. Устанавливаем оставляя все по умолчанию, директорию не меняем.
 3. В настройках MemReduct отключаем запуск при старте системы, так же можем добавить очистку каждые 30-60 минут.
 4. Остальноне не трогаем.
