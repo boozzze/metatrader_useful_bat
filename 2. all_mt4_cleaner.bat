@@ -2,7 +2,6 @@
 setlocal enabledelayedexpansion
 
 set "directories_file=terminal_paths.txt"
-set "exclude_files=history\symbols.raw history\symbols.sel"
 set "target_folders=history logs experts\logs tester\history tester\logs MQL4\Logs"
 
 for /f "usebackq delims=" %%a in ("%directories_file%") do (
