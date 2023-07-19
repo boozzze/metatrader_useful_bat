@@ -1,7 +1,9 @@
 # metatrader_useful_bat
-Clean all MetaTraders folder, Clean Local MetaTrader  folder, Create file for autorun all terminals
+Очистить все папки MetaTrader, Очистить локальную папку MetaTrader, Создать файл для автозапуска всех терминалов
 
 Скрипт был протестирован только на MetaTrader 4. Только с ключом /portable. 
+
+!!! Внимание! Перед использованием создать резервные копии всех папок MetaTrader !!!
 
 Руководство по использованию.
 
