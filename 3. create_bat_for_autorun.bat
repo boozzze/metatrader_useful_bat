@@ -5,12 +5,12 @@ REM Prompt the user to enter the timeout value
 set /p "timeout_seconds=Enter the timeout value (in seconds): "
 
 REM Prompt the user to add MemReduct cleanup at the beginning
-set /p "add_memreduct=Add MemReduct cleanup at the beginning of the file (yes/no)? "
+set /p "add_memreduct=Add MemReduct cleanup (yes/no)? "
 
 REM Create/clear the auto_start_terminals.bat file
 echo. > %output_file%
 
-REM If the user wants to add MemReduct cleanup at the beginning, then do it
+REM If the user wants to add MemReduct cleanup 
 if /i "%add_memreduct%"=="yes" (
     echo TIMEOUT 30 >> %output_file%
     echo start /D "C:\Program Files\Mem Reduct\" /MIN memreduct.exe -clean >> %output_file%
@@ -25,7 +25,7 @@ for /f "delims=" %%i in (terminal_paths.txt) do (
     
 )
 
-REM If the user wants to add MemReduct cleanup at the end, then do it
+REM If the user wants to add MemReduct cleanup 
 if /i "%add_memreduct%"=="yes" (
     echo TIMEOUT 60 >> %output_file%
     echo start /D "C:\Program Files\Mem Reduct\" /MIN memreduct.exe -clean >> %output_file%
