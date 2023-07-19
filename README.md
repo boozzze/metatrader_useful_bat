@@ -19,7 +19,7 @@
 ### Использование 2. all_mt4_cleaner.bat
 1. Файл можно запускать из любой папки, как вам удобно, главное, чтобы рядом лежал созданный файл terminal_paths.txt
 2. Будут очищены все папки с терминалами, по порядку, как указано в файле terminal_paths.txt
-3. При запуске чистятся все папки с мусором: history\*.* logs\*.* mailbox\*.*  deleted\*.*  experts\logs\*.*  tester\history\*.*  tester\logs\*.*
+3. При запуске чистятся все папки с мусором: history\ logs\ mailbox\  deleted\  experts\logs\ tester\history\  tester\logs\
 4. Особенностью данного скрипта является то, что в исключения чистки попадают два файла: symbols.raw и symbols.sel, это позволяет оставлять только нужные пары в "Обзор рынка" после чистки
 
 ### Использование 3. create_bat_for_autorun.bat / Читаем ниже про MemReduct
