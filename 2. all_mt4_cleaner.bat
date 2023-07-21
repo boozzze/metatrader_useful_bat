@@ -1,4 +1,8 @@
 @echo off
+ECHO Cleaning All Terminals folders
+ECHO To cancel the cleaning, press Ctrl+C. Otherwise, press any key to start the cleaning
+PAUSE > NUL
+
 setlocal enabledelayedexpansion
 
 set "directories_file=terminal_paths.txt"
@@ -26,4 +30,3 @@ for /f "usebackq delims=" %%a in ("%directories_file%") do (
 )
 echo Cleaning completed.
 TIMEOUT 5
-
